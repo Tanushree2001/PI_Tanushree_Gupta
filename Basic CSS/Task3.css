@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    
+    background-color: white;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+  }
+  #div2{
+    height:350px;
+    width: 1440px;
+    background-color: #E70000;
+    display: inline-block;
+    
+    
+    
+  }
+  #div3{
+    height:370px;
+    width: 477px;
+    background-color: #571212;
+    
+    display:inline-block;
+  }
+  #h1{
+    color: white;
+    text-align: justify;
+    font-style:initial;
+    font-size: 40px;
+    margin: 30px;
+    left:130px;
+    top: 80px;
+    position: relative;
+  }
+  .p1{
+    color: white;
+    font-size: 17px;
+    text-align: justify;
+    left: 154px;
+    top: 80px;
+    position: relative;
+    font-style: normal;
+  }
+  #h31{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    position: relative;
+    left: 60px;
+    top: 25px;
+  }
+  .p2{
+    color: white;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    text-align: justify;
+    background-size: contain;
+    left:50px;
+    top: 50px;
+    position: relative;
+  }
+  #div4{
+    height:370px;
+    width: 477px;
+    background-color: #571212;
+    border-right-color: 10px solid white;
+    border-top-color: 10px solid white;
+    display:inline-block;
+    vertical-align: top;
+  }
+  #h32{
+    color:white;
+    font-size: 25px;
+    text-align: justify;
+    position: relative;
+    left:60px;
+    top:25px;
+  }
+  
+  #div5{
+    height:370px;
+    width: 477px;
+    background-color: #571212;
+    border-right-color: 10px solid white;
+    border-top-color: 10px solid white;
+    display:inline-block;
+    vertical-align: top;
+  }
