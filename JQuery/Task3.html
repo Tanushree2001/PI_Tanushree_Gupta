@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquerytask3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $(".submit").click(function(){
+               var First= $("#Firstname").val();
+               if(First == ""||First == "null"){
+                   alert("fill the field");
+               } 
+           });
+           $(".submit").click(function(){
+               var Last= $("#Lastname").val();
+               if(Last == ""||Last == "null"){
+                   alert("fill the field");
+               } 
+           });
+        });
+    </script>
+</head>
+<body>
+    <form >
+        <div class="submit">
+            <label for="Firstname">First Name</label><br>
+            <input type="text" id="Firstname"><br>
+            <label for="Lastname">Last Name</label><br>
+            <input type="text" id="Lastname"><br><br>
+            <button class="submit">Submit</button>
+        </div>
+    </form>
+    
+</body>
+</html>
