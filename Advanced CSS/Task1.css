@@ -1,0 +1,132 @@
+nav{
+    height:85px;
+    width: 100%;
+    background-color: #D9D9D9;
+    display:inline-block;
+    text-align: right;
+    position:relative;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin-right : 150px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 12px 10px 0px 10px;
+}
+.horizontal-list li a{
+   
+    text-decoration: none;
+    color: #00669A;
+    font-size: 20px;
+}
+.horizontal-list li a:hover{
+    background-color: black;
+    color: white;
+}
+.a{
+    height:220px;
+    width:100%;
+    background-color: #06A3CC;
+    text-align: center;
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+#a1{
+    font-size: 65px;
+    margin:70px 450px 40px 600px;
+    color: white;
+    /*position: flex;*/
+    margin-bottom: 20px;
+}
+/*#a2{
+    align-items: left;
+}*/
+.b1{
+    height:522px;
+    width:100%;
+    background-color: #D39ED6;
+    display:flex;
+    /*margin-bottom: 15px;*/
+}
+.b{
+    height:500px;
+    width:40%;
+    background-color: white;
+    padding-top: 20px;
+    display:flex;    
+}
+.c1{
+    margin:80px 15px 0px 170px;
+    height:400px;
+    width:70%;
+    background-color: #FFE369;
+    display: flex;
+    position:relative;
+}
+.c2{
+    height: 300px;
+    width:270px;
+    background-color: #D39ED6;
+    margin-left: -80px;
+    margin-top: 40px;
+    display: flex;
+}
+.d{
+    height:500px;
+    width:60%;
+    background-color: white;
+    padding-top: 20px;
+    display:flex;
+    flex-direction: column;
+    
+}   
+.d1{
+    height:250px;
+    width:90%;
+    background-color: #ED8719;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    position:relative;
+}
+input[type="text"],
+
+
+textarea{
+    width: 70%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left:20px;
+    padding: 2px 2px 2px 2px;
+    background-color: #F8A549;
+    border: 2px solid white;
+    border-radius: 0.2rem;
+    position:relative;
+    opacity:0.5;
+}   
+input[type="submit"]{
+    height:40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #F8A549;
+    color: white;
+    padding: 12px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.d2{
+    height:138px;
+    width:90%;
+    background-color: #89E33B;
+}
+.e{
+    height:80px;
+    width:100%;
+    background-color: #007594;
+    text-align: center;
+    padding-top: 30px;
+}
