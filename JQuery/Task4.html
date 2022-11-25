@@ -5,9 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jquerytask4</title>
-    <link rel="stylesheet" type="text/css" href="Task4.css">
+    <link rel="stylesheet" type="text/css" href="jqueryassign4.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="Task4.js"></script>
+
+    <script>
+        $(document).ready(function(){
+    $("#header").click(function(){
+        $(".a").css("background-color","green");
+    });
+});
+
+$(document).ready(function(){
+    $("#sidebar").click(function(){
+        $("#sidebar").text("Leftbar");
+    });
+});
+ 
+$(document).ready(function(){
+    $("#extra").click(function(){
+        $(".e").fadeOut(3000);
+    });
+});
+    </script>
  </head>
  <body>
     <body style="color: white;">
