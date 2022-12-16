@@ -71,7 +71,7 @@ body{
   .p2{
     color: white;
     height: 30px;
-    width: 400px;
+    padding-right: 50px;
     font-size: 16px;
     text-align: justify;
     background-size: contain;
