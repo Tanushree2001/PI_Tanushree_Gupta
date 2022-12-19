@@ -2,17 +2,23 @@ body{
     margin: 0px;
     padding: 0px;
     font-size: 0px;
-}
-.a{
     height:100vh;
     width:100%;
 }
+.para{
+    margin:0px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
 .b{
     height:20vh;
     width:100%;
     background-color: #55D4EB;
     margin-bottom: 15px;
-    text-emphasis-color: white;
+    box-sizing: border-box;
+    padding-top: 55px;
 }
 .c1{
     height:calc(60vh - 15px);
@@ -25,13 +31,14 @@ body{
     width:25%;
     background-color: #A0C263;
     float: left;
-    margin-right: 15px;
+    
 }
 .c12{
     height: calc(60vh - 15px);
     width:calc(75% - 15px);
     float: right;
     position: relative;
+    margin-left: 15px;
 }
 .c121{
     height: 70%;
@@ -44,9 +51,13 @@ body{
     height: calc(30% - 15px);
     width:100%;
     background-color: #898989;
+    padding-top: 40px;
+    box-sizing: border-box;
 }
 .d{
     height:calc(20vh - 15px);
     width:100%;
     background-color: #FFA500;
+    box-sizing: border-box;
+    padding-top: 50px;
 }
